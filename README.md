@@ -9,14 +9,19 @@ https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloa
 
 https://cloud.oracle.com/db/adb/ > Select Instance > DB Connections > Download Wallet
 
-3. Supply your database User, Password and DNS in `.env` file
+3. Supply your database User, Password and DNS to the `.env` file
 
 ```
 cp .env.example .env
 nano .env
 ```
 
-4.  Build and run
+4. Supply driver and wallet path to `Makefile`: 
+```
+nano Makefile
+```
+
+5.  Build and run
 ```
 make build
 make run
