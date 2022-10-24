@@ -26,3 +26,6 @@ nano Makefile
 make build
 make run
 ```
+
+6. Note:
+Wallet files must replace the content of the `network/admin` directory in driver `LD_LIBRARY_PATH`.
